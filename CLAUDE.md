@@ -47,8 +47,12 @@ components/
   Contact.tsx      — GHL embedded iframe form
   Footer.tsx       — multi-column footer
 public/
-  logo.png         — Zalian AI logo (white bg — use only on white sections)
-assets/            — original source files (logo, certs)
+  logo.png         — Zalian AI logo, cropped 657x650px, white bg (use on white sections only)
+  og-image.png     — 1200x630 social share image (logo on navy bg)
+app/
+  favicon.ico      — 16/32/48px browser tab icon
+  apple-icon.png   — 180x180 iOS homescreen icon
+assets/            — original source files (logo PNG, PSEB cert PDF, FBR reg PDF)
 ```
 
 ## Design System
@@ -88,6 +92,13 @@ Dark (`bg-navy-950`) → Light (`bg-white`) → Dark → Light for visual rhythm
 - **Dark backgrounds:** text logo only (PNG has white bg, looks bad on dark)
 - **White/light backgrounds:** `<Image src="/logo.png" />`
 
+## Key Links
+
+- **Upwork:** https://www.upwork.com/freelancers/~01fcd98c58afb8fa79
+- **Metaviz:** https://metaviz.io
+- **Email:** hello@zalian-ai.com
+- **GitHub repo:** https://github.com/zainali89/zalian-ai-website
+
 ## Contact Form (GHL)
 
 The contact form is a GHL embedded iframe — do NOT replace with a custom React form.
@@ -120,7 +131,8 @@ npm run lint     # ESLint check
 - **GitHub:** https://github.com/zainali89/zalian-ai-website
 - **Hosting:** Hostinger Node.js, Node 20
 - **Build:** `npm run build` | **Start:** `npm start`
-- **Domain:** zalian-ai.com
+- **Domain:** zalian-ai.com (connected via Hostinger DNS)
+- **metadataBase:** set to `https://zalian-ai.com` in `layout.tsx` — do not remove
 
 ## Rules
 

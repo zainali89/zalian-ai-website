@@ -65,8 +65,8 @@ export default function Footer() {
       <div className="border-t border-white/5">
         <div className="max-w-6xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-600">
           <span>© {year} Zalian AI — Sole Proprietorship. All rights reserved.</span>
-          <a href="mailto:hello@zalian-ai.com" className="hover:text-teal-400 transition-colors">
-            hello@zalian-ai.com
+          <a href="mailto:info@zalian-ai.com" className="hover:text-teal-400 transition-colors">
+            info@zalian-ai.com
           </a>
         </div>
       </div>

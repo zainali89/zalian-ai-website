@@ -96,7 +96,7 @@ Dark (`bg-navy-950`) → Light (`bg-white`) → Dark → Light for visual rhythm
 
 - **Upwork:** https://www.upwork.com/freelancers/~01fcd98c58afb8fa79
 - **Metaviz:** https://metaviz.io
-- **Email:** hello@zalian-ai.com
+- **Email:** info@zalian-ai.com
 - **GitHub repo:** https://github.com/zainali89/zalian-ai-website
 
 ## Contact Form (GHL)

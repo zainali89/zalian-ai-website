@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Mail, Globe, Briefcase } from "lucide-react";
 
 const contactItems = [
-  { Icon: Mail, label: "Email", value: "hello@zalian-ai.com", href: "mailto:hello@zalian-ai.com" },
+  { Icon: Mail, label: "Email", value: "info@zalian-ai.com", href: "mailto:info@zalian-ai.com" },
   { Icon: Globe, label: "Agency", value: "metaviz.io", href: "https://metaviz.io" },
   { Icon: Briefcase, label: "Upwork", value: "Hire on Upwork", href: "https://www.upwork.com/freelancers/~01fcd98c58afb8fa79" },
 ];
